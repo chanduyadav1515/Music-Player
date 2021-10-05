@@ -1,0 +1,303 @@
+body{
+    background-color: #0b1026;
+}
+/* ....................header......................... */
+#header-box{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    margin-top: 1%;
+
+}
+#header-box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+}
+#header-box2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+}
+.spotify{
+    margin-top: 1.5%;
+    height: 50px;
+    width: 50px;
+}
+.ninjaStudio{
+    margin-left: -19%;
+    margin-top: 1.5%;
+}
+.headerphoto{
+    border-radius: 2rem;
+    height: 40px;
+    width: 40px;
+}
+.favourite{
+    margin-top: 1.5%;
+}
+#inputbox{
+    margin-top: 1.5%;
+}
+.inputBar{
+    background-color: #11193e;
+    border-style: none;
+    color: white;
+}
+.search{
+    margin-right: -2.5%;
+    background-color: #11193e;
+    border-style: none;
+    color: white;
+}
+.mic{
+    margin-left: -2.5%;
+    background-color: #11193e;
+    border-style: none;
+    color: white;
+}
+.bell{
+    margin-top: 1.5%;
+    height: auto;
+    width: auto;
+}
+/* ............................................................................... */
+/* ...............................mainbody.................................... */
+
+main{
+    display: inline-block;
+    width: 55%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+#section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.moodBusters{
+    height: 12rem;
+    width: 15rem;
+    transition: 0.3s ease-in-out;
+}
+.moodBusters:hover{
+    opacity: 0.6;
+    transform: scale(1.2);
+ 
+}
+/* ..................section2............ */
+#section2{
+    margin-left: 0px;
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.miclogo img{
+    height: 65px;
+    width: 65px;
+}
+.innerbox{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    padding: 10px;
+}
+.innerinnerbox{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.onism{
+    color: white;
+    margin-top: 3%;
+}
+.adot a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+/* .........................section3............ */
+
+.singerslist{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 100%px;
+    height: 120px;
+}
+.singer img{
+    border-radius: 50%;
+    height: 110px;
+    width: 95%;
+    margin-right: 20px;
+}
+.singer img:hover{
+    opacity: 0.6;
+}
+/* ..................section4................ */
+#section4{
+    background-color: #0f1642;
+    width: 100%;
+    height: 130px;
+    margin-top: 3%;
+}
+.stations{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.station {
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    margin-right: 20px;
+    margin-top: 1.5%;
+    opacity: 0.7;
+    background-size: cover;
+    background-position:center ;
+}
+.stationnames{
+    color: white;
+    font-size: 200%;
+    margin-left: 20%;
+    top: 30px;
+    position: relative;
+    font-style: italic;
+}
+/* ..............................section5............. */
+#section5{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2%;
+}
+.occation{
+    
+    margin-top: 3%;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    margin-right: 2%;
+  
+}
+.occationtype {
+    height: 100%;
+    width: 90%;
+    background-size: cover;
+    background-position:center;
+    transition: all .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.occationtype:hover{
+    opacity: 0.5;
+    transform: scale(1.2);
+    font-size: 1.5rem;
+}
+.occation a{
+    font-size: 2rem;
+    font-family: fantasy;
+    color:wheat;
+    text-decoration: none;
+    text-shadow: #0b1026;
+}
+
+/* .......................section5..................... */
+.english{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-top: 2%;
+    margin-left: 1%;
+    justify-content: space-between;
+}
+.englishsong img{
+    height: 70px;
+    width: 70px;
+}
+/* .......................secion6.................... */
+.hindi{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-top: 2%;
+    margin-left: 1%;
+    justify-content: space-between;
+}
+.hindisong img{
+    height: 70px;
+    width: 70px;
+}
+/* .....................aside.............................. */
+#aside{
+    display: inline-block;
+    vertical-align: top;
+    /* border: 2px solid wheat; */
+    width: 31%;
+    height: 100vh;
+    position: fixed;
+    margin-top: 0.5%;
+}
+.asideHeader{
+    display: flex;
+    justify-content: space-between;
+}
+.queueName{
+    color: white;
+    font-size: 1.5rem;
+}
+.queueList a{
+    color: lightskyblue;
+    text-decoration: none;
+}
+.song{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.songDeep{
+    display: flex;
+}
+.songNumber{
+    color: #949caf;
+    margin-top: 4%;
+    margin-right: 2%;
+}
+.songImage img{
+    width : 50%;
+    height : 40%;
+    z-index : -1;
+}
+.play img {
+    width : 50%;
+    height : 50%;
+    z-index : 100;
+    /* margin : 0 0 50px 125px; */
+    opacity : 0.0 ;
+  } 
+.songImage img:hover{
+    opacity: 0.9;
+}
+.songName1{
+    color: white;
+}
+.songName2{
+    color: #5f6272;
+    font-size: .8rem;
+}
+.heart{
+    color: white;
+}
