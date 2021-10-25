@@ -1,0 +1,615 @@
+
+<html>
+
+    <!-- head -->
+    <head>
+        <title>Single PlayList</title>
+        <!-- linking css file -->
+        <link rel="stylesheet" href="single-artist-playlist.css">
+        <!-- linking css file which contains responsive behaviour for this web page -->
+        <link rel="stylesheet" href="responsive-single-playlist.css">
+        <!-- adding fontawesome for icons -->
+        <script src="https://kit.fontawesome.com/2770690ce5.js" crossorigin="anonymous"></script>
+    </head>
+
+    <!-- body -->
+    <body>
+        <!-- HEADER SECTION -->
+        <header>
+            <div id="header-box">
+                <!-- header-box part1 contains logo,name,favourites -->
+                <div id="header-box-inside1">
+                    <!-- music player logo -->
+                    <div>
+                        <img src="spotify-icon.png" class="spotify-image">
+                    </div>
+                    <!-- music player name -->
+                    <div class="ninja-studio-name">
+                        <span>Ninja<br><strong>Studio</strong></span>
+                    </div>
+                    <!-- favourites -->
+                    <div class="favourite-name">
+                        <span>Favourites</span>
+                    </div>
+                </div>
+                <!-- header-box part2 contains search bar,user profile -->
+                <div id="header-box-inside2">
+                    <!-- search bar -->
+                    <div id="header-input-box">
+                        <form>
+                            <button class="search-icon"><i class="fas fa-search"></i></button>
+                            <input type="text" placeholder="Search" class="input-search-bar">
+                            <button class="mic-icon"><i class="fas fa-microphone"></i></button>
+                        </form>
+                    </div>
+                    <div class="bell-icon">
+                         <i class="far fa-bell"></i>
+                    </div>
+                    <!-- user image -->
+                    <div>
+                        <img src="chandu.jpg" class="header-photo">
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- MAIN SECTION -->
+        <main>
+            <!-- player title box -->
+            <div id="player-title-box">
+                <!-- player image -->
+                <div id="player-image">
+                    <img src="cold-play.jpg" alt="cold-play">
+                </div>
+                <!-- about player and play all button -->
+                <div id="player-description">
+                    <div class="player-details">
+                            <div style="display: flex; justify-content: space-between;">
+                                <div><span class="player-name">ColdPlay</span></div>
+                                <div><span class="common-color follower-count">851 Followers</span><br></div>
+                            </div>
+                            <div>
+                                <span class="common-color">British Band</span><br><br>
+                            </div>
+                            <div>
+                                <span class="common-color res-del-1">
+                                    Coldplay is a British music band that has enjoyed continous succes since 
+                                    their inception in 1996 through their intlligent and soulfull songs. The 
+                                    band members are Chris Martin (lead vocals), Jonny Buckland (lead guitar), 
+                                    Guy Berryman (bass guitar) and Will Champion  (drums).
+                                </span><br><br>
+                            </div>
+                            
+                            <div>
+                                <button class="play-all">Play All</button>
+                                <span class="follow-sign">
+                                <i class="fas fa-plus"></i>&nbsp; Follow</span><br><br>
+                                <span class="track-album">247 Tracks | 128 Albums</span> 
+                            </div>   
+                    </div>
+                </div>
+            </div>
+            <!-- player songs list -->
+            <div id="player-song-list">
+                <!-- single song -->
+                <div class="song">
+                    <!-- left part of single song box -->
+                    <div class="song-inside">
+                        <!-- song number -->
+                        <div class="song-number">
+                            01
+                        </div>
+                        <!-- song image and play button hover effect -->
+                        <div class="container">
+                            <img src="single-1.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                          <!-- song name -->
+                        <div class="song-name">
+                            <span class="song-name1">Universe</span> <br> <span class="song-name2">Chris</span>
+                        </div>
+                    </div>
+                    <!-- right part of single song box -->
+                    <div class="i-tags">
+                        <span><i class="far fa-heart"></i></span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <!-- single song -->
+                <div class="song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            02
+                        </div>
+                        <div class="container">
+                            <img src="single-2.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Yellow</span> <br> <span class="song-name2">Morris</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <span><i class="far fa-heart"></i></span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <!-- single song -->
+                <div class="song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            03
+                        </div>
+                        <div class="container">
+                            <img src="single-3.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Fix You</span> <br> <span class="song-name2">Belly</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <span><i class="far fa-heart"></i></span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <!-- single song -->
+                <div class="song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            <i class="fas fa-stream"></i>
+                        </div>
+                        <div class="container">
+                            <img src="single-5.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Paradise</span> <br> <span class="song-name2">flume</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <span><i class="far fa-heart"></i></span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <!-- single song -->
+                <div class="song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            05
+                        </div>
+                        <div class="container">
+                            <img src="single-6.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Scientist</span> <br> <span class="song-name2">Jonny</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <span><i class="far fa-heart"></i></span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <!-- single song -->
+                <div class="song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            06
+                        </div>
+                        <div class="container">
+                            <img src="single-7.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Clocks</span> <br> <span class="song-name2">Will</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <span><i class="far fa-heart"></i></span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+
+                <!-- single song -->
+                <div class="song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            07
+                        </div>
+                        <div class="container">
+                            <img src="single-8.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Power</span> <br> <span class="song-name2">Berry</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <span><i class="far fa-heart"></i></span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+                
+                <!-- single song -->
+                <div class="song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            08
+                        </div>
+                        <div class="container">
+                            <img src="single-9.png" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">LifeTime</span> <br> <span class="song-name2">Martin</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <span><i class="far fa-heart"></i></span>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <!-- ASIDE SECTION -->
+        <aside>
+            <!-- similar artist section-->
+            <div class="similar-artist">
+                <!-- heading div -->
+                <div class="similar-artist-name">
+                    <div>
+                        Similar Artists
+                    </div>
+                    <div class="res-del-1">
+                        <span>View All</span> 
+                    </div>  
+                </div>
+
+                <!-- single box -->
+                <div class="similar-box">
+                    <!-- first part is for image and song name -->
+                    <div  class="similar-box-inside1">
+                        <!-- song image -->
+                        <div>
+                            <img src="single-12.jpg" >
+                        </div>
+                         <!--song name  -->
+                        <div class="similar-names">
+                            <span >Life Goes Over</span><br>
+                            <span class="pop-band">Pop Band</span>
+                        </div>    
+                    </div>
+                    <!-- second part is for timeline -->
+                    <div class="similar-box-inside2">
+                        ...<br>
+                        <span>4:44</span>
+                    </div>
+                </div>
+
+                <!-- single box -->
+                <div class="similar-box">
+                    <!-- first part is for image and song name -->
+                    <div  class="similar-box-inside1">
+                        <!-- song image -->
+                        <div>
+                            <img src="single-13.jpg" >
+                        </div> 
+                        <!-- song name -->
+                        <div class="similar-names">
+                            <span >Easy on me</span><br>
+                            <span class="pop-band">Adele</span>
+                        </div>    
+                    </div>
+                    <!-- second part is for timeline -->
+                    <div class="similar-box-inside2">
+                        ...<br>
+                        <span>4:44</span>
+                    </div>
+                </div>
+
+                <!-- single box -->
+                <div class="similar-box">
+                    <!-- first part is for image and song name -->
+                    <div  class="similar-box-inside1">
+                        <!-- song image -->
+                        <div>
+                            <img src="single-14.jpg" >
+                        </div> 
+                        <!-- song name -->
+                        <div class="similar-names">
+                            <span >Happier Than Ever</span><br>
+                            <span class="pop-band">Billie Ellish</span>
+                        </div>   
+                    </div>
+                    <!-- second part is for timeline -->
+                    <div class="similar-box-inside2">
+                        ...<br>
+                        <span>4:44</span>
+                    </div>
+                </div>
+            </div>
+            <!-- recently played section -->
+            <div class="recently-played">
+                <div class="similar-artist-name">
+                    <div>
+                        Recently Played
+                    </div>
+                    <div class="res-del-1">
+                        <span>View All</span> 
+                    </div>  
+                </div>
+                <div class="recently-song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            01
+                        </div>
+                        <div class="container">
+                            <img src="single-15.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Habits</span> <br> <span class="song-name2">Sheeran</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="recently-song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            02
+                        </div>
+                        <div class="container">
+                            <img src="single-16.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Good</span> <br> <span class="song-name2">Olivia</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="recently-song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            <i class="fas fa-stream"></i>
+                        </div>
+                        <div class="container">
+                            <img src="single-17.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Woman</span> <br> <span class="song-name2">Doja</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="recently-song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            04
+                        </div>
+                        <div class="container">
+                            <img src="single-18.png" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Already</span> <br> <span class="song-name2">Caroline</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="recently-song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            05
+                        </div>
+                        <div class="container">
+                            <img src="single-1.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Lost</span> <br> <span class="song-name2">David</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="recently-song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            06
+                        </div>
+                        <div class="container">
+                            <img src="single-20.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Beggin</span> <br> <span class="song-name2">Maneskin</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="recently-song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            07
+                        </div>
+                        <div class="container">
+                            <img src="single-2.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Colors</span> <br> <span class="song-name2">Bbily</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+
+                <div class="recently-song">
+                    <div class="song-inside">
+                        <div class="song-number">
+                            08
+                        </div>
+                        <div class="container">
+                            <img src="single-3.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <a href="#" class="icon" title="User Profile">
+                                <i class="fas fa-play"></i>
+                              </a>
+                            </div>
+                          </div>
+                        <div class="song-name">
+                            <span class="song-name1">Slide</span> <br> <span class="song-name2">Cheste</span>
+                        </div>
+                    </div>
+                    <div class="i-tags">
+                        <i class="far fa-heart"></i>
+                    </div>
+                </div>
+                
+            </div>
+        </aside>
+
+        <!-- FOOTER SECTION  -->
+        <footer>
+            <!-- footer inside contains audio name , audio controls , volume controls -->
+            <div id="footer-inside">
+                <!-- audio name -->
+                <div id="audio-name"> 
+                    <div class="footer-song-logo">
+                        <img src="single-13.jpg" alt="songlogo">
+                    </div>
+                    <div class="footer-name-details">
+                        <div class="footer-song-name">
+                            Mirage<br>
+                            <span>Zyan</span>
+                        </div>
+                        <div class="footer-i-tag">
+                            <i class="far fa-heart"></i>
+                        </div>
+                        <div class="footer-i-tag">
+                            <i class="fas fa-ban"></i>
+                        </div>
+                    </div>   
+                </div>
+                <!-- audio controls -->
+                <div class="audio-controls">
+                    <!-- audio icons -->
+                   <div class="controls-icon">
+                       <span>
+                        <i class="fas fa-random"></i>
+                        <i class="fas fa-step-backward"></i>
+                       </span>
+                        <i class="far fa-pause-circle"></i>
+                        <span>
+                            <i class="fas fa-step-forward"></i>
+                            <i class="fas fa-redo"></i>
+                        </span>
+                    
+                   </div>
+                   <!-- play bar -->
+                   <div class="slider-box">
+                       <div><span>1:29</span></div>&nbsp;
+                       <div class="range-slider"><input type="range" min="0" max="100" id="range-starter"></div>&nbsp;
+                       <div><span>4:37</span></div>  
+                   </div>
+                </div>
+                <!-- volume controls , lists -->
+                <div class="volume-controls">
+                    <div><i class="fas fa-th-list"></i></div>
+                    <div><i class="fas fa-laptop-house"></i></div>
+                    <div><i class="fas fa-volume-up"></i></div>
+                    <div><input type="range" min="0" max="100"></div>
+                    <div><i class="fas fa-expand-alt"></i></div>  
+                </div>
+            </div>
+        </footer>
+
+    </body>
+</html>

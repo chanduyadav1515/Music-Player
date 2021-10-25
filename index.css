@@ -1,0 +1,534 @@
+/* styling body background color */
+body{
+    background-color: #0b1026;  
+}
+/* ....................HEADER SECTION......................... */
+/* setting height and width of total header section */
+header{
+    margin-top: -11px;
+    position: sticky;
+    top: 0px;
+    z-index: 200;
+    height: 80px;
+    padding-top: 10px;
+    background-color: #0b1026;   
+}
+#header-box{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    justify-content: space-between;
+    margin-top: 1%;
+}
+/* left part of header */
+#header-box-inside1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+}
+/* music player logo */
+.spotify-image{
+    margin-top: 1%;
+    height: 17%;
+    width: 80%;
+}
+/* music player name */
+.ninja-studio-name{
+    margin-left: -19%;
+    margin-top: 1.5%;
+}
+/* favourites */
+.favourite-name{
+    margin-top: 1.5%;
+}
+/* right part of header */
+#header-box-inside2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 30%;
+}
+#header-input-box{
+    margin-top: 1.5%;
+}
+/* search bar */
+.input-search-bar{
+    background-color: #11193e;
+    border-style: none;
+    color: white;
+}
+/* search icon */
+.search-icon{
+    margin-right: -2.5%;
+    background-color: #11193e;
+    border-style: none;
+    color: white;
+}
+/* mic icon */
+.mic-icon{
+    margin-left: -2.5%;
+    background-color: #11193e;
+    border-style: none;
+    color: white;
+}
+/* bell icon */
+.bell-icon{
+    margin-top: 1.5%;
+    height: auto;
+    width: auto;
+}
+/* user photo */
+.header-photo{
+    border-radius: 2rem;
+    height: 40px;
+    width: 40px;
+}
+/* .................HEADER SECTION COMPLETED.................... */
+
+/* ...................MAIN SECTION................ */
+/* setting height and width of main */
+main{
+    display: inline-block;
+    width: 55%;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+/* first section images scrolling section */
+#event-images-scrolling-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+/* scrolling effect */
+.images-scroller{
+    height: 40%;
+    width: 30%;
+    transition: 0.2s ease-in-out;
+}
+.images-scroller:hover{
+    opacity: 0.6;
+    transform: scale(1.3);
+}
+/*second section latest release section*/
+/* latest release heading */
+.latest-release-name{
+    color: white;
+    font-size: 1rem; 
+    margin-top: 4%; 
+    margin-left: 2%;
+}
+/* all songs in one box */
+#latest-release-songs{
+    margin-left: 0px;
+    margin-top: 1%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+/* each single song styling */
+.release-songs-box{
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 40%;
+    padding: 10px;
+}
+.release-song{
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+}
+.release-song-image img{
+    height: 80%;
+    width: 90%
+}
+.release-song-name{
+    color: white;
+    margin-top: 8%;
+    font-size: 1.1rem;
+}
+.release-song-name span{
+    color:#7d818a; 
+    font-size: 0.6rem;
+}
+.release-three-dots a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7rem;
+}
+/* third section popular artist section */
+/* popular artist heading */
+.popular-artist-name{
+    color: white; 
+    font-size: 1rem; 
+    margin-top: 1%; 
+    margin-left: 2%;
+}
+/* all singers list */
+.singers-list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 2%;
+    width: 100%px;
+    height: 120px;
+}
+/* styling each single singer */
+.singer img{
+    border-radius: 50%;
+    height: 15vh;
+    width: 90%;
+    margin-right: 20px;
+}
+.singer img:hover{
+    opacity: 0.6;
+}
+.singer span{
+    color: #a6a9ae; 
+    font-size: 1.1rem; 
+    margin-left: 25%;
+}
+/* forth section radio station section */
+/* styling radio station box */
+#radio-station-section{
+    background-color: #0f1642;
+    width: 100%;
+    height: 130px;
+    margin-top: 3%;
+}
+.stations-list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+/* styling each single station */
+.single-station{
+    border-radius: 50%;
+    height: 110px;
+    width: 110px;
+    margin-right: 20px;
+    margin-top: 1.5%;
+    opacity: 0.7;
+    background-size: cover;
+    background-position:center ;
+}
+.station-name{
+    color: white;
+    font-size: 1.5rem;
+    margin-left: 24%;
+    top: 35%;
+    position: relative;
+    font-style: italic;
+}
+/* fifth section is occation section */
+/* styling occation section box */
+#occation-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2%;
+}
+/* styling each occation  */
+.each-occation{  
+    margin-top: 3%;
+    height: 150px;
+    width: 100%;
+    overflow: hidden;
+    margin-right: 2%; 
+}
+.each-occation a{
+    font-size: 2rem;
+    font-family: fantasy;
+    color:wheat;
+    text-decoration: none;
+    text-shadow: #0b1026;
+}
+.occationtype {
+    height: 100%;
+    width: 90%;
+    background-size: cover;
+    background-position:center;
+    transition: all .5s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.occationtype:hover{
+    opacity: 0.5;
+    transform: scale(1.2);
+    font-size: 1.5rem;
+}
+/* sixth section english songs */
+/* seventh section hindi songs */
+/* both section contains same css styling so i used common class for both sections */
+/* stlying heading of sections */
+.latest-english-hindi-heading{
+    color: white; 
+    font-size: 1rem; 
+    margin-top: 1%; 
+    margin-left: 0%;
+}
+/* styling songs list */
+.english-hindi-songs-list{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    margin-top: 2%;
+    margin-left: 1%;
+    justify-content: space-between;
+}
+/* styling each song list */
+.each-hindi-english-song img{
+    height: 70px;
+    width: 70px;
+}
+.each-hindi-english-song{
+    color: white; 
+    font-size: 0.9rem;
+}
+.each-hindi-english-song span{
+    font-size: 0.6rem; 
+    color: #7d818a;
+}
+/* ..................MAIN SECTION IS COMPLTETED..................... */
+
+/* .....................ASIDE SECTION.............................. */
+/* styling aside section */
+aside{
+    display: inline-block;
+    vertical-align: top;
+    overflow: scroll;
+    width: 31%;
+    height: 100vh;
+    position: sticky;
+    top: 120px;
+    padding-left: 20px;
+}
+/* stlying aside scrollbar */
+aside::-webkit-scrollbar {
+    display: none;
+}
+  /* aside heading */
+.aside-heading{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: -5px;
+    background-color: #0b1026;
+    width: 100%;
+    height: 40px;
+    z-index: 200;
+}
+/* queue name */
+.queue-name{
+    color: white;
+    font-size: 1.5rem;
+}
+/* queue icon */
+.queue-list-icon a{
+    color: lightskyblue;
+    text-decoration: none;
+}
+/* all songs list styling */
+.songs-list{
+    position: relative;
+    top: 3%;
+}
+/* single song */
+.single-song{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+}
+.song-inside{
+    display: flex;
+    justify-content: flex-start;
+}
+/* numbering */
+.song-number{
+    color: #949caf;
+    margin-top: 4%;
+    margin-right: 2%;
+}
+/* image */
+.image-box {
+    position: relative;
+    width: 40%;
+    top: -15%;
+}
+.image {
+    width: 45%;
+    height: auto;
+}
+/* play button */
+.icon-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 40%;
+    opacity: 0;
+    transition: .3s ease;
+}
+.icon-box:hover{
+    opacity: 1;
+}
+.image-box:hover{
+    opacity: 0.7;
+}
+.icon {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+/* song name and singer name*/
+.song-name{
+    margin-left: -20% ;
+}
+.song-name1{
+    color: white;
+}
+.song-name2{
+    color: #5f6272;
+    font-size: .8rem;
+}
+/* heart icon */
+.heart-icon{
+    color: white;
+}
+/* ...........ASIDE SECTION COMPLETED................. */
+
+ /* ............... FOOTER SECTION.......................... */
+ footer{
+     z-index: 1000;
+     position: sticky;
+     bottom: -1px;
+     height: 9vh;
+     width: 101.1%;
+     background-color:#383734;
+     margin: -10px;
+ }
+ #footer-inside{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+ }
+ /* audio name */
+ #audio-name{
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 0.5%;
+}
+/* song photo */
+ .footer-song-logo img{
+     margin-top:8%;
+     margin-left: 30%;
+     height: 40px;
+ }
+ /* song name */
+ .footer-name-details{
+     display: flex;
+ }
+ .footer-song-name{
+     margin-top: 7%;
+    color: white;
+    margin-left: 30%;
+ }
+ .footer-song-name span{
+    color: #5f6272;
+     font-size: 0.8rem;
+ }
+ .footer-i-tag {
+    color: #5f6272;
+    margin-top: 7%;
+    margin-left: 15%;
+ }
+ /* audio controls */
+ .audio-controls
+ {
+     margin-left: 20%;
+     width: 40%;
+     height: 50px;
+     margin-top: 0.4%;
+ }
+ .controls-icon span i{
+    margin-top: 3.5%;
+     margin-right: 10%;
+     color: #fefefe;
+     font-size: 0.7rem;
+ }
+ .controls-icon i{
+     font-size: 1.8rem;
+    margin-right: 10%;
+     color: #b3b3b3;
+ }
+ /* slider styling */
+ .slider-box{
+     display: flex;
+     flex-direction: row;
+ }
+ .slider-box div span{
+     color: #fefefe;
+     margin-top: 10%;
+     font-size: 0.8rem;
+     margin-left: -15%;
+     display: none;
+ }
+ .range-slider input {
+     margin-left: -10%;
+    height: 25px;
+    -webkit-appearance: none;
+    width: 25vw;
+    background: transparent; 
+  }
+  /* slider bar styling */
+  .range-slider input::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animation: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #2497E3;
+    border-radius: 1px;
+    border: 0px solid #000000;
+  }
+  /* slider nob styling */
+  .range-slider input::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 1px solid #2497E3;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #A1D0FF;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -7px;
+  }
+  /* volume controls , lists */
+  .volume-controls{
+      margin-top: 1.3%;
+      color: #b3b3b3;
+      margin-right: 5%;
+      display: flex;
+      width: 20%;
+      justify-content: space-between;
+  }
+  /* ..............FOOTER SECTION COMPLETED............ */
+
+
+
+  

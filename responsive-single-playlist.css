@@ -1,0 +1,138 @@
+/* ............................RESPONSIVENESS DESIGN............................. */
+    /* From Desktop view to mobile view */
+
+  /* if the screen width is less than or equal to 1200px following changes will be done */
+  @media only screen and (max-width: 1200px) {
+    
+    /* some changes in header */
+    #header-box-inside2{
+        width: 50%;
+    }
+    .spotify-image{
+        margin-left: -20%;
+        height: 24%;
+    }
+    /* some changes in main */
+    /*player image will be removed */
+    #player-image{
+        display: none;
+    } 
+    /* some changes in footer */
+    footer{
+        width: 101vw;
+    }
+    #footer-inside{
+        margin-left: -9%;
+    }
+    .volume-controls{
+        width: 35%;
+    }
+}
+
+  /* if the screen width is less than or equal to 900px following changes will be done */
+  @media screen and (max-width:900px) {
+      
+    /* some changes in header */
+    .spotify-image{
+        margin-left: -25%;
+        height: 35%;
+    }
+    /* some changes in main section */
+    main{
+        width: 80%;
+        margin-left: 10%;
+    }
+    /* some changes in aside section */
+    /* aside section will go bottom of page*/
+    aside{
+        display: block;
+        margin-top: 3%;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .similar-names{
+        margin-left: 2%;
+        margin-top: 1%;
+    }
+    /* some changes in footer */
+    .volume-controls{
+        display: none;
+    }
+    footer{
+        width: 101vw;
+    }
+    #footer-inside{
+        margin-left: 2%;
+    }
+    .audio-controls{
+        width: 80%;
+        margin-top: 0.8%;
+    }
+    .slider-box input{
+        margin-left: -9%;
+        width: 40vw;
+    }
+}
+
+  /* if the screen width is less than or equal to 800px following changes will be done */
+  @media screen and (max-width:800px) {
+   
+    /* some change in header */
+    .ninja-studio-name{
+        font-size: 0.9rem;
+        margin-top: 0%;
+        margin-left: -12%;
+    }
+    /* some change in footer */
+    footer{
+        width: 101vw;
+    }
+      
+}
+
+  /* if the screen width is less than or equal to 590px following changes will be done */
+  @media screen and (max-width:590px) {
+
+    /* some change in header */
+    #header-box-inside2{
+        width: 60vw;
+    }
+    /* single song */
+    .song{
+        margin-top: 2%;
+    }
+    /* some change in footer */
+    footer{
+        width: 101vw;
+    }
+    
+    
+}
+
+ /* if the screen width is less than or equal to 500px following changes will be done */
+@media screen and (max-width:500px) {
+
+     /* some changes in header */
+    .play-all{
+        width: 50%;
+        margin-top: -7%;
+    }
+    .follow-sign{
+        margin-left: 17%;
+        margin-top: 12vh;
+    }
+    .favourite-name{
+        font-size: 0.7rem;
+    }
+    .ninja-studio-name{
+        font-size: 0.7rem;
+    }
+    /* changes in player description box */
+    #player-title-box{
+        flex-direction: column;
+        height: 33%;
+    }
+    .res-del-1{
+        display: none;
+    }
+}
